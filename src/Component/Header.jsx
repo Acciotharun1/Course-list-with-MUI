@@ -1,0 +1,17 @@
+import React from 'react'
+import { AppBar,Box,Toolbar, Typography } from '@mui/material'
+const Header = () => {
+  return (
+    <Box>
+        <AppBar>
+            <Toolbar>
+                <Typography>
+                    Acciojob
+                </Typography>
+            </Toolbar>
+        </AppBar>
+    </Box>
+  )
+}
+
+export default Header
